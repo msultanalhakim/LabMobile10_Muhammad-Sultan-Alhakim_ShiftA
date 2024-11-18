@@ -23,6 +23,7 @@ Jika autentikasi berhasil, Firebase akan mengembalikan informasi pengguna dalam 
 
 Setelah proses login berhasil, aplikasi akan menggunakan informasi dari objek user yang diberikan oleh Firebase untuk menampilkan data pengguna di aplikasi. Foto profil, nama lengkap, dan email pengguna akan ditampilkan pada halaman profil. Data ini diambil dari objek user yang dikembalikan oleh Firebase, seperti user.displayName untuk nama, user.email untuk email, dan user.photoURL untuk foto profil. Selain itu, aplikasi juga menyediakan opsi logout. Ketika pengguna memilih untuk logout, aplikasi akan mengakhiri sesi login dengan Firebase dan Google, serta menghapus data pengguna yang ada di aplikasi. Proses logout ini memastikan bahwa sesi login berakhir dengan baik dan data pengguna tidak disimpan secara permanen.
 
+
 ![image](https://github.com/user-attachments/assets/ee399b63-d743-4905-974a-e4d19281cacb)
 
 ![Screenshot 2024-11-13 152437](https://github.com/user-attachments/assets/651d676c-9e5a-40d7-a92a-a08d9c3d607b)
